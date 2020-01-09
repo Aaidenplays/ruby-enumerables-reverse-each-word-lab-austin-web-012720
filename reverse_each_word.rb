@@ -9,7 +9,7 @@ def reverse_each_word(sentence1)
     return_sentence.join(" ")
 end
 
-def reverse_each_word_collect(sentence1)
+def reverse_each_word(sentence1)
   original_array = sentence1.split(" ")
   return_sentence = []
   binding.pry
