@@ -5,7 +5,7 @@ def reverse_each_word(sentence1)
   original_array = sentence1.split(" ")
     binding.pry
 
-  sentence1.each do |word|
+  original_array.each do |word|
     new_string += word.reverse()
   end
   new_string
