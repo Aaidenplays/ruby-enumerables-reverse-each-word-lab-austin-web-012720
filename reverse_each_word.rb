@@ -2,7 +2,7 @@ require 'pry'
 
 def reverse_each_word(sentence1)
   new_string = ''
-  original_array = string.split(" ")
+  original_array = sentence1.split(" ")
     binding.pry
 
   sentence1.each do |word|
