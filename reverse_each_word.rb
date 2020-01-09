@@ -12,9 +12,8 @@ end
 def reverse_each_word(sentence1)
   original_array = sentence1.split(" ")
   return_sentence = []
-  binding.pry
   original_array.collect do |string|
-    
+    return_sentence << string.reverse()
   end
-  
+  return_sentence
 end
