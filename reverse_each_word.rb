@@ -7,5 +7,5 @@ def reverse_each_word(sentence1)
     return_sentence << word.reverse()
   end
       binding.pry
-  return_sentence
+  return_sentence.flatten()
 end
