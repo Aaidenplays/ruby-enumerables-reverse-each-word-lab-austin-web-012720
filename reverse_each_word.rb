@@ -6,6 +6,7 @@ def reverse_each_word(sentence1)
   original_array.each do |word|
     return_sentence << word.reverse()
   end
+    return_sentence.flatten()!
       binding.pry
-  return_sentence.flatten()
+  return_sentence
 end
