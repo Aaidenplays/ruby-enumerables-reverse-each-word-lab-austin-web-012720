@@ -1,12 +1,12 @@
 require 'pry'
 
 def reverse_each_word(sentence1)
-  new_string = ''
+  return_sentence = ''
   original_array = sentence1.split(" ")
     binding.pry
 
   original_array.each do |word|
-    new_string += word.reverse()
+    return_sentence += word.reverse()
   end
-  new_string
+  return_sentence
 end
