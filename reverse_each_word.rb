@@ -2,7 +2,7 @@ require 'pry'
 
 def reverse_each_word(sentence1)
   new_string
-  string.each do |word|
+  string.each{ |word|} do
     new_string = word.reverse
   end
   binding.pry
